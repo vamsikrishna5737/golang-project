@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+  background: whitesmoke;
+}
+.alert {
+  position: absolute;
+  width: 20rem;
+  height: 2.5rem;
+  left: calc(50% - 10rem);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 71, 97);
+  border-radius: 7px;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 4rem;
+  background: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid skyblue;
+}
+
+.header-ul {
+  display: flex;
+  width: 97%;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+
+.mainHead {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #454545;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.searchBox {
+  width: 17rem;
+  height: 2.1rem;
+  background: #f2f2f2;
+  border-radius: 6px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.userField {
+  display: flex;
+  cursor: pointer;
+}
+
+.userField > img {
+  width: 2.2rem;
+  margin-right: 5px;
+}
+
+.userField > div {
+  height: 2.2 rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.userField > div > p {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.userField > div > .userType {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.mailContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.innerContainer {
+  width: calc(100% - 10rem);
+}
+
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 10rem;
+  height: 100%;
+  background-color: rgb(194, 233, 249);
+}
+
+.asidelogo {
+  cursor: pointer;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 61px;
+  color: #0884ff;
+  position: relative;
+  left: 10%;
+}
+
+.signOutBtn {
+  position: relative;
+  width: 4rem;
+  cursor: pointer;
+  bottom: 5.6%;
+  left: 10%;
+}
+
+.asidelogo > div {
+  width: 100%;
+  height: 100%;
+  border: 2px solid bal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidetop {
+  height: 11.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidetop > div {
+  width: 100%;
+  height: 66.66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dashbord {
+  width: 5.5rem;
+  cursor: pointer;
+}
+
+.asideOpenimg {
+  width: 8rem;
+  cursor: pointer;
+}
+
+.mainpage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.name,.designation,.company{
+  width:300px;
+}
